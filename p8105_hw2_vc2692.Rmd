@@ -1,6 +1,7 @@
 ---
 title: "p8105_hw2_vc2692"
 output: github_document
+author: Vaidehi Chudgar
 date: "2025-09-27"
 ---
 
@@ -157,7 +158,7 @@ The `all_wheels_joined` dataframe provides information on water-wheel vessels th
 For available data, the total weight of trash collected by Professor Trash Wheel is `r professor_total_weight` tons. Additionally, the total number of cigarette butts collected by Gwynns Falls Trash Wheel in June of 2022 was `r cigarettes_gwynn_june2022`. 
 
 
-# Question 3
+# Problem 3
 
 ## Cleaning zillow rental price dataset
 ```{r - rental price dataset}
@@ -231,3 +232,6 @@ ten_largest_price_decrease
 ```
 
 The above table shows 10 ZIP codes (along with the borough and neighborhood) with largest drop in price from January 2020 to 2021. They are all in in New York County / Manhattan. The top ten decreases range from $913 to $685. 
+
+
+

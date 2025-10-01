@@ -182,7 +182,7 @@ rental_price_df =
 
 ```
 
-##Cleaning zipcode dataset
+## Cleaning zipcode dataset
 ```{r - zipcode dataset}
 zip_code_df =
   read_csv("dataset/zillow_data/zip_codes.csv", 
@@ -203,7 +203,7 @@ zillow_and_zips =
 
 The `zillow_and_zips` dataset includes rental price information for a given zipcode in NYC from January 2015-August 2024. There is also country and neighborhood information for the given zipcode included in this dataset. There are `r n_distinct(zillow_and_zips$zip_code)` unique zip codes and `r n_distinct(zillow_and_zips$neighborhood)` unique neighborhoods. 
 
-##Zipcodes not in Zillow data
+## Zipcodes not in Zillow data
 
 ```{r - zipcodes not in zillow}
 only_zipcode_dataset_zipcodes = 
